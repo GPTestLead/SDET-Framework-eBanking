@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test thread-count="5" name="Test">
+  <parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="com.pageObjects.BaseClass"/>
+     <!--   <class name="com.testCases.TC_LoginTest_001"/>-->
+      <class name="com.testCases.TC_LoginDDT_002"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
